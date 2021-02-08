@@ -11,18 +11,19 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: 网站建站中~基于hojun佬的Sakura模板制作！
+notice: 网站建站中~最后更新于: 2021/02/08 22:52
 lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
     技术: {path: /categories/技术/, fa: fa-code },     
-    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    番组: {path: /categories/番组/, fa: fa-film faa-vertical }, 
     资源: {path: /categories/资源/, fa: fa-cloud-download }, 
   } }
   清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
     歌单: {path: /music/, fa: fa-headphones },
+    追番: {path: /bangumi/, fa: fa-film faa-vertical }, 
     图集: {path: /tags/图集/, fa: fa-photo }
   } }
   留言: { path: /comment/, fa: fa-pencil-square-o faa-tada }
@@ -30,11 +31,11 @@ menus:
   赞赏: { path: /donate/, fa: fa-heart faa-pulse }
   关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
     我: {path: /about/, fa: fa-meetup}, 
-    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    # 主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
     # Lab: {path: /lab/, fa: fa-cogs },
   } }
   # 客户端: { path: /client/, fa: fa-android faa-vertical }
-  # RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
 
 
 # Home page sort type: -1: newer first，1: older first.
@@ -51,9 +52,9 @@ bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash: 
-  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: /img/startdash/sakura.md.png}
-  - {url: http://space.bilibili.com/271849279, title: Bilibili, desc: 博主的b站视频, img: /img/startdash/bilibili.jpg}
-  - {url: /, title: hojun的万事屋, desc: 技术服务, img: /img/startdash/wangshiwu.jpg}
+  - {url: https://space.bilibili.com/32823052, title: Bilibili, desc: 我的B站空间, img: /img/dash-bili.png}
+  - {url: https://bilibili.com/bangumi/play/ss1178, title: CLANNAD, desc: CL一生推, img: /img/dash-CL.jpg}
+  - {url: https://twitter.com/KitamaruRamito, title: Twitter, desc: 看看发生了什么, img: /img/dash-Twitter.png}
 
 
 
@@ -64,7 +65,6 @@ siteBuildingTime: 02/08/2021
 social:
   github: {url: https://github.com/KitamaruRamito, img: /img/social-github.png}
   电子邮件: {url: mailto:killmasterags@gmail.com, img: /img/social-email.svg}
-  ACFun: {url: https://www.acfun.cn/u/17108847, img: /img/social-acfun.ico}
   Bilibili: {url: https://space.bilibili.com/32823052, img: /img/social-bilibili.ico}
   YouTube: {url: https://www.youtube.com/channel/UCtF-gFM9XMGVfPfgIJb4ZFQ/, img: /img/social-youtube.ico}
   微信: {qrcode: /img/social-wechat-code.png, img: /img/social-wechat.png}
@@ -73,9 +73,9 @@ social:
 
 
 #social  url, img 移动端配置
-msocial:
-  github: {url: http://github.com/honjun, fa: fa-github, color: 333}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=1494339027&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+# msocial:
+#  github: {url: http://github.com/honjun, fa: fa-github, color: 333}
+#  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=1494339027&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
 
 donate:
   paypal: https://www.paypal.me/hojuncn
@@ -103,6 +103,6 @@ aplayer:
 
 # Valine
 valine: true
-v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
-v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
+v_appId: OQ9BaG56rvuEIdxL6FVeB8i4-gzGzoHsz
+v_appKey: aTAkilyyl2tAL9foDWoddvaX
 

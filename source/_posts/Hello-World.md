@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2021-02-06 18:18:49
-tags: 
+tags: 技术
 ---
 
 # 嗨！
@@ -12,7 +12,7 @@ tags:
 
 ## 我是如何有这个想法的？
 
-今天看了其他人的博客（虽然那个是基于Wordpress做的动态网站），突发奇想，于是我就想“诶？我能不能也建一个网站......”，于是便有了你现在所看的这个页面。
+今天看了其他人的博客（虽然那个是基于Wordpress做的动态网站），突发奇想，于是我就想“诶？我能不能也建一个博客网站......”，于是便有了你现在所看的这个页面。
 
 ---
 
@@ -48,11 +48,34 @@ npm config set proxy=http://127.0.0.1:10809
 
 ```
 cd \ 
-cd Users\[你的用户名]
+cd Users\[你的用户名]\创建的文件夹
 hexo init
 ```
 
-![示例](\pics\1-1.png)
+![示例](https://cdn.jsdelivr.net/gh/kitamaruramito/kitamaruramito.github.io/img/posta1-1.png)
 
 如果出现上述文字，那么你的博客就已经创建好啦！
-输入`hexo s`启动，然后在浏览器中
+输入`hexo s`启动，然后在浏览器中键入`localhost:4000`测试一下吧！
+
+### 第三步：Git到你的仓库
+
+（这里默认你已经建好了Github仓库，并已添加`Master`分支
+在你的博客根目录下找到`_config.yml`，打开后找到`Deployment`一项，并修改成：
+
+```
+# Deployment
+deploy:
+  type: git
+  repo: git@github.com:【你的Github用户名】/【你的Github用户名】.github.io.git
+  branch: master
+```
+
+后，在博客根目录下打开cmd，输入：
+
+```
+hexo clean
+hexo g
+hexo d
+```
+
+就可上传保存到库啦~

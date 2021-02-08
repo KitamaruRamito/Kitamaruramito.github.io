@@ -16,9 +16,12 @@ photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/comment.jpg
     <h1>
     念两句诗</h1>
     <p id="poem">
-    叙别梦、扬州一觉。</p>
+    海上生洋葱，吸夸共此时。<br>
+    ＤＤ怨遥夜，竟夕起片思。<br>
+    闭关怜芽满，披衣觉露滋。<br>
+    不堪盈手赠，还寝梦佳期。</p>
     <p id="info">
-    【宋代】吴文英《夜游宫·人去西楼雁杳》</p>
+    【中国】沃朔德《DD现状》</p>
   </div>
 </div>
 {% endraw %}
