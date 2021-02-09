@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>らみと団子屋</title>
+  
+  <subtitle>( ╹╹ )</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2021-02-08T13:43:57.328Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>Kitamaruramito</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2021/02/06/Hello-World/"/>
+    <id>/2021/02/06/Hello-World/</id>
+    <published>2021-02-06T10:18:49.000Z</published>
+    <updated>2021-02-08T13:43:57.328Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;嗨！&quot;&gt;&lt;a href=&quot;#嗨！&quot; class=&quot;headerlink&quot; title=&quot;嗨！&quot;&gt;&lt;/a&gt;嗨！&lt;/h1&gt;&lt;p&gt;你们好！我是北丸らみと！这是我的第一个&lt;del&gt;简短而又小&lt;/del&gt;的文章！从今天开始请多关照咯！&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+</feed>
