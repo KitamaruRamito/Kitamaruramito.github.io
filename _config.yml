@@ -79,14 +79,14 @@ theme: Sakura
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:KitamaruRamito/Kitamaruramito.github.io.git
+  repo: git@github.com:kitamaruramito/kitamaruramito.github.io.git
   branch: master
 
 # backup
 backup:
   type: git
   message: backup my blog of https://kitamaruramito.github.io/
-  repo: git@github.com:KitamaruRamito/Kitamaruramito.github.io.git
+  repo: git@github.com:kitamaruramito/kitamaruramito.github.io.git
   branch: backup
 
 #RSS
