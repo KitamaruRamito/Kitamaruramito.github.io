@@ -11,7 +11,7 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: 网站建站中~最后更新于: 2021/02/08 22:52
+notice: 网站建站中~最后更新于2021/02/08 22:52
 lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
@@ -52,9 +52,9 @@ bgclass: filter-dot
 
 # startdash url, title, desc img
 startdash: 
-  - {url: https://space.bilibili.com/32823052, title: Bilibili, desc: 我的B站空间, img: /img/dash-bili.png}
-  - {url: https://bilibili.com/bangumi/play/ss1178, title: CLANNAD, desc: CL一生推, img: /img/dash-CL.jpg}
-  - {url: https://twitter.com/KitamaruRamito, title: Twitter, desc: 看看发生了什么, img: /img/dash-Twitter.png}
+  - {url: https://space.bilibili.com/32823052, title: Bilibili, desc: 我的B站空间, img: https://cdn.jsdelivr.net/gh/kitamaruramito/kitamaruramito.github.io/img/dash-bili.png}
+  - {url: https://bilibili.com/bangumi/play/ss1178, title: CLANNAD, desc: CL一生推, img: https://cdn.jsdelivr.net/gh/kitamaruramito/kitamaruramito.github.io/img/dash-CL.jpg}
+  - {url: https://twitter.com/KitamaruRamito, title: Twitter, desc: 看看发生了什么, img: https://cdn.jsdelivr.net/gh/kitamaruramito/kitamaruramito.github.io/img/dash-Twitter.png}
 
 
 
